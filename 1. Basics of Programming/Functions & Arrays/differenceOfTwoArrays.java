@@ -79,18 +79,6 @@ public class differenceOfTwoArrays {
 // import java.io.*;
 // import java.util.*;
 
-// public class Main{
-
-// public static void main(String[] args) throws Exception {
-// Scanner sc = new Scanner(System.in);
-// int n1 = sc.nextInt();
-// int a[] = new int[n1];
-// for(int i=0;i<n1;i++)
-// a[i] = sc.nextInt();
-// int n2 = sc.nextInt();
-// int b[] = new int[n2];
-// for(int i=0;i<n2;i++)
-// b[i] = sc.nextInt();
 // int n = n1>n2?n1:n2;
 // int c[] = new int[n];
 
