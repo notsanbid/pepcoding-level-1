@@ -1,3 +1,5 @@
+
+// Given Solution :
 import java.io.*;
 import java.util.*;
 
@@ -71,3 +73,58 @@ public class differenceOfTwoArrays {
 // An idx pointer keeps increasing from zero to first non zero element in one
 // iteration
 // In next iteration, printing starts from there
+
+// My Solution:
+
+// import java.io.*;
+// import java.util.*;
+
+// public class Main{
+
+// public static void main(String[] args) throws Exception {
+// Scanner sc = new Scanner(System.in);
+// int n1 = sc.nextInt();
+// int a[] = new int[n1];
+// for(int i=0;i<n1;i++)
+// a[i] = sc.nextInt();
+// int n2 = sc.nextInt();
+// int b[] = new int[n2];
+// for(int i=0;i<n2;i++)
+// b[i] = sc.nextInt();
+// int n = n1>n2?n1:n2;
+// int c[] = new int[n];
+
+// int i = n1-1;
+// int j = n2-1;
+// int k = n-1;
+// int bo = 0;
+
+// while(k>=0){
+// int d = bo;
+// if(j >= 0)
+// d += b[j];
+// if(i >= 0)
+// d -= a[i];
+// if(d < 0){
+// d = d + 10;
+// bo = -1;
+// }
+// else
+// bo = 0;
+// c[k] = d;
+// i--;
+// j--;
+// k--;
+// }
+// int start = 0;
+// for(i=0;i<n;i++)
+// if(c[i]==0)
+// continue;
+// else{
+// start = i;
+// break;
+// }
+// for(i=start;i<n;i++)
+// System.out.println(c[i]);
+// }
+// }
