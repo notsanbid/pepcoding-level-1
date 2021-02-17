@@ -74,10 +74,7 @@ public class differenceOfTwoArrays {
 // iteration
 // In next iteration, printing starts from there
 
-// My Solution:
-
-// import java.io.*;
-// import java.util.*;
+// My Solution (Probably better one):
 
 // int n = n1>n2?n1:n2;
 // int c[] = new int[n];
